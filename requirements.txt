@@ -1,0 +1,24 @@
+# Smart Lamp Controller Dependencies
+# Core dependencies
+tinytuya>=1.2.0
+
+# Audio processing (optional - for music sync features)
+pyaudio>=0.2.11
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Screen capture / Ambilight features (optional)
+mss>=9.0.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+screeninfo>=0.8.0
+
+# GUI (tkinter comes with Python)
+# tkinter - built-in with Python
+
+# Development and testing (optional)
+pytest>=6.0.0
+pytest-asyncio>=0.18.0
+
+# Logging and configuration (built-in with Python)
+# json, logging, pathlib - built-in

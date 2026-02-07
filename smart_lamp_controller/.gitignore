@@ -1,0 +1,41 @@
+# ── Credentials & secrets ────────────────────────────
+lamp_config.json
+utils/lamp_config.json
+release/lamp_config.json
+snapshot.json
+avant_key.txt
+avant_key_config.py
+*.env
+.env.*
+
+# ── Python cache ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Logs ─────────────────────────────────────────────
+logs/
+*.log
+
+# ── Build artifacts ──────────────────────────────────
+build/
+dist/
+*.spec
+*.exe
+release/*.exe
+
+# ── IDE / Editor ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS files ─────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ── Claude Code ──────────────────────────────────────
+.claude/

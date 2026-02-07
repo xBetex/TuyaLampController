@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+logs/
+nul
+lamp_config.json
+snapshot.json
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
+*.spec

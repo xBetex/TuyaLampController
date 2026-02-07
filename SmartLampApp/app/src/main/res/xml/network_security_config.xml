@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.15.7</domain>
+        <!-- Allow simplified local usage for user defined IPs if needed, or just allow all cleartext for dev -->
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- Emulator -->
+    </domain-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

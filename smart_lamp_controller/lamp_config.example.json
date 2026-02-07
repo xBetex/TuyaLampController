@@ -1,0 +1,32 @@
+{
+  "device": {
+    "name": "My Smart Lamp",
+    "id": "YOUR_DEVICE_ID",
+    "address": "YOUR_DEVICE_IP",
+    "local_key": "YOUR_LOCAL_KEY",
+    "version": "3.5"
+  },
+  "ui": {
+    "window_width": 650,
+    "window_height": 750,
+    "theme": "default"
+  },
+  "audio": {
+    "sample_rate": 44100,
+    "buffer_size": 1024,
+    "channels": 1,
+    "default_sensitivity": 2.5
+  },
+  "effects": {
+    "rainbow_speed": 50,
+    "default_brightness": 500,
+    "default_temperature": 500
+  },
+  "data_points": {
+    "power": "20",
+    "mode": "21",
+    "brightness": "22",
+    "temperature": "23",
+    "scene": "25"
+  }
+}
